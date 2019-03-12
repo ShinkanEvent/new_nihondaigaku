@@ -1,11 +1,11 @@
-@media all and (max-width: 1000px) {
+media all and (max-width: 1000px) {
   .lesson {
     width: 50%;
     margin-bottom: 50px;
   }
 
   .lesson-wrapper {
-    height: 2000px;
+    height: 990px;
   }
 
   footer {
@@ -17,10 +17,6 @@
   .top-wrapper h1 {
     font-size: 32px;
   }
-  
-  .top-wrapper h2 {
-    font-size: 20px;
-  }  
 
   .heading h2 {
     font-size: 20px;
@@ -49,11 +45,13 @@
   }
 
   .top-wrapper h1 {
-    font-size: 24px;
+    font-size: 20px;
+    text-align: center;
   }
 
-  .top-wrapper p {
+  .top-wrapper h2 {
     font-size: 14px;
+    padding-left: 30px;
   }
 
   .lesson {
@@ -61,10 +59,16 @@
   }
 
   .lesson-wrapper {
-    height: 4000px;
+    height: 4380px;
   }
 
   .message-wrapper .btn {
     width: 100%;
   }
+
+  .message-wrapper{
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
 }
+
